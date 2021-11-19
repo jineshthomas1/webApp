@@ -11,6 +11,6 @@ a {
   float: right;
 }
 
-ul {
+.navbar-expand-sm bg-light{
 background-color: blueviolet;
 }
