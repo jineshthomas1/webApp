@@ -1,8 +1,8 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 router.get('/',(req,res,next) => {
-  res.render('/error.hbs');
+  res.render('views/error.hbs');
 });
 
 module.exports = router
