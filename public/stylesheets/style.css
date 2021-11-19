@@ -1,14 +1,14 @@
 body {
   padding: 0px;
   font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: lightblue;
 }
 
 a {
   color: #068526da;
 }
-.test12{
+.navbar-nav{
   float: center;
+  align-items: center;
 }
 
 .bgcol{
