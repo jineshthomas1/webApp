@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>PHP insertion</title>
+        <title>PHP test</title>
         <link rel="stylesheet" href="css/insert.css" />
     </head>
     <body>
