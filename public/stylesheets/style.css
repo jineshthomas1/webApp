@@ -1,13 +1,13 @@
 body {
   padding:10px;
   font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: black;
+
 }
 
 a {
   color: #068526da;
 }
 
-.navbar-nav{
+.navbar{
   background-color: red;
 }
