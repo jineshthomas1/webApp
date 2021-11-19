@@ -7,7 +7,7 @@
 		<div class="maindiv">
 		<!--HTML form -->
 			<div class="form_div">
-				<div class="title"><h2>Thengakola.</h2></div>
+				<div class="title"><h2>Manga</h2></div>
    
 				<form action="insert.php" method="post">    <!-- method can be set POST for hiding values in URL-->
 					<h2>Form</h2>
