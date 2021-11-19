@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightblue;
 }
 
 a {
@@ -9,6 +10,4 @@ a {
 .topnav-right {
   float: right;
 }
-body {
-  background-color: lightblue;
-}
+
