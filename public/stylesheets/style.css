@@ -9,4 +9,6 @@ a {
 .topnav-right {
   float: right;
 }
-
+body {
+  background-color: lightblue;
+}
