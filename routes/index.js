@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'Basic Info', 
-  pageText:'Web Developer',
+  pageText:'Hello, Myself Jinesh Thomas\n I am a web developer passionate in deveveloping web techologies',
   var:'This about my page'
  });
 });
