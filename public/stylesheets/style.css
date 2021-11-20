@@ -29,9 +29,7 @@ footer {
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
-  position:fixed;
-  bottom: 0;
-  width: 100%;
+  position:sticky;
   top: 100%;
 
 }
