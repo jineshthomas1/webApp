@@ -1,6 +1,7 @@
 body {
   padding:0px;
   font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 100vh;
 
 }
 
@@ -28,8 +29,9 @@ footer {
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
-  position:absolute;
+  position:sticky;
   bottom: 0;
   width: 100%;
+  top: 100%;
 
 }
