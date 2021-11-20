@@ -33,3 +33,16 @@ footer {
   top: 100%;
 
 }
+
+.centerAlign {
+  width: 10%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.intro{
+  text-align: center;
+  color:#FFA500;
+  padding: 0% 10% 0% 10%;
+}
