@@ -47,6 +47,6 @@ footer {
   color:#FFA500;
   padding: 0% 10% 0% 10%;
 }
-li.hover{
+.navbar-nav .nav-link menufont{
   color: white;
 }
