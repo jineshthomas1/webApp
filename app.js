@@ -8,8 +8,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var projectcontroller = require('./routes/project');
 var skillsController = require('./routes/skills');
-var contactController = require('./routes/contact')
-
+var contactController = require('./routes/contact');
+var myprojectsController = require('./routes/myProjects');
 var app = express();
 
 // view engine setup
@@ -27,6 +27,8 @@ app.use('/users', usersRouter);
 app.use('/Projects', projectcontroller);
 app.use('/Skills', skillsController);
 app.use('/contact', contactController);
+app.use('/myProjects', myprojectsController);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
