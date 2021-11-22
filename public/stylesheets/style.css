@@ -63,3 +63,8 @@ footer {
   padding: 5% 10% 5% 10%;
 
 }
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
