@@ -10,8 +10,6 @@ router.get('/',(req,res,next) => {
     projectThreeDesc:'Dubai hair transplant experts commited in bringing the best hair care all over UAE. The website of dubai hair transplant is developed in wordpress in a time period of seven days.',
     projectTitle4:'madeinmonkey',
     projectFourDesc:'madeinmonkey is a e-commerce company located in kerala, India aimed to sell custom made apparels and accessories in cheaper prices. The website is made in wordpress with a time frame of 20 days'
-
-
 });
 });
 
