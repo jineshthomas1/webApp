@@ -27,6 +27,7 @@ app.use('/users', usersRouter);
 app.use('/Projects', projectcontroller);
 app.use('/Skills', skillsController);
 app.use('/contact', contactController);
+app.use('/myProjects',myprojectsController);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
