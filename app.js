@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var aboutRouter = require('./routes/aboutMe')
 var projectcontroller = require('./routes/project');
 var skillsController = require('./routes/skills');
 var contactController = require('./routes/contact');
@@ -28,6 +29,7 @@ app.use('/Projects', projectcontroller);
 app.use('/Skills', skillsController);
 app.use('/contact', contactController);
 app.use('/myProjects',myprojectsController);
+app.use('/aboutMe',aboutRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
